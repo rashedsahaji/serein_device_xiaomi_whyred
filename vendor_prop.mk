@@ -333,3 +333,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 #Ignore the wrong IWLAN report when UE in W/G mode.
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.data_con_rprt=1
+
+# Pie Telephony blobs
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.vendor.qti.pie.telephony=1
