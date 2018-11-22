@@ -25,9 +25,9 @@ $(call inherit-product, device/xiaomi/whyred/device.mk)
 # Inherit some common ArrowOS stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
-$(call inherit-product, vendor/arrow/config/common.mk)
+$(call inherit-product, vendor/serein/config/common_full_phone.mk)
 
-PRODUCT_NAME := arrow_whyred
+PRODUCT_NAME := serein_whyred
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := whyred
 PRODUCT_MANUFACTURER := Xiaomi
